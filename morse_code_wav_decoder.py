@@ -45,14 +45,14 @@ normalized_integer_list = [int(num) for num in normalized_data]
 
 #--------------------Plot the wav file------------------------
 
-time = np.arange(len(normalized_data)) / sample_rate
-plt.figure(figsize=(12, 6))
-plt.plot(time, normalized_data)
-plt.xlabel('Time (s)')
-plt.ylabel('Amplitude')
-plt.title('Normalized Waveform of the WAV File')
-plt.grid(True)
-plt.show()
+# time = np.arange(len(normalized_data)) / sample_rate
+# plt.figure(figsize=(12, 6))
+# plt.plot(time, normalized_data)
+# plt.xlabel('Time (s)')
+# plt.ylabel('Amplitude')
+# plt.title('Normalized Waveform of the WAV File')
+# plt.grid(True)
+# plt.show()
 
 #--------------------------------------------------------------
 
